@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>InboxPro - Gestor de Correos Inteligente</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 20px; background: #f4f4f4; color: #333; }
+    header, footer { text-align: center; padding: 20px; background: #007bff; color: white; }
+    h1, h2, h3 { color: #007bff; }
+    .cta { display: inline-block; margin: 10px; padding: 10px 20px; background: #28a745; color: white; border-radius: 5px; text-decoration: none; }
+    .section { margin: 30px 0; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+    th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
+    ul { padding-left: 20px; }
+    .price-table caption { font-weight: bold; margin-bottom: 10px; text-align: left; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>📬 InboxPro</h1>
+    <p>💡 Organiza y limpia tus correos automáticamente</p>
+    <a class="cta" href="#planes">Conecta tu correo</a>
+    <a class="cta" href="#planes">Prueba gratuita 7 días</a>
+  </header>
+
+  <div class="section">
+    <h2>✨ ¿Qué hace InboxPro por ti?</h2>
+    <ul>
+      <li>🧹 Elimina spam y promociones molestas</li>
+      <li>🗂️ Clasifica tus correos por categoría</li>
+      <li>❌ Cancela suscripciones inútiles</li>
+      <li>🤖 Automatiza respuestas si lo deseas</li>
+      <li>📊 Resumen semanal de lo importante</li>
+    </ul>
+  </div>
+
+  <div class="section" id="planes">
+    <h2>💼 Planes por suscripción mensual</h2>
+    <table class="price-table">
+      <caption>📆 Pago mensual</caption>
+      <tr>
+        <th>Plan</th><th>Incluye</th><th>Precio</th>
+      </tr>
+      <tr>
+        <td>🟢 Básico</td>
+        <td>Limpieza semanal de spam y organización sencilla</td>
+        <td>5 €/mes</td>
+      </tr>
+      <tr>
+        <td>🔵 Pro</td>
+        <td>Incluye clasificación automática y cancelación de suscripciones</td>
+        <td>15 €/mes</td>
+      </tr>
+      <tr>
+        <td>🟣 Premium</td>
+        <td>Todo lo anterior + respuestas automáticas + soporte + resumen</td>
+        <td>20 €/mes</td>
+      </tr>
+    </table>
+    <p>🎁 Todos los planes incluyen 7 días de prueba gratis. Sin compromiso.</p>
+  </div>
+
+  <div class="section">
+    <h2>🧾 Planes por uso único (sin suscripción)</h2>
+    <table class="price-table">
+      <caption>🔁 Pago único</caption>
+      <tr>
+        <th>Plan</th><th>Incluye</th><th>Precio</th>
+      </tr>
+      <tr>
+        <td>🟢 Básico</td>
+        <td>Limpieza y organización básica</td>
+        <td>10 €</td>
+      </tr>
+      <tr>
+        <td>🔵 Pro</td>
+        <td>Clasificación automática y cancelaciones</td>
+        <td>20 €</td>
+      </tr>
+      <tr>
+        <td>🟣 Premium</td>
+        <td>Todo incluido: respuestas + soporte + resumen</td>
+        <td>30 €</td>
+      </tr>
+    </table>
+    <p>📌 Ideal para limpieza puntual sin compromiso.</p>
+  </div>
+
+  <div class="section">
+    <h2>🔐 ¿Es seguro?</h2>
+    <p>✅ No pedimos contraseñas. Usamos OAuth 2.0 para acceso seguro.<br>
+    ✅ Cumplimos con el RGPD. Datos cifrados y protegidos.</p>
+  </div>
+
+  <div class="section">
+    <h2>👣 ¿Cómo funciona?</h2>
+    <ol>
+      <li>Conecta tu Gmail u Outlook</li>
+      <li>Elige el plan que se adapte a ti</li>
+      <li>InboxPro hace el trabajo automáticamente</li>
+    </ol>
+    <p>💡 Sin conocimientos técnicos. Todo automatizado.</p>
+  </div>
+
+  <div class="section">
+    <h2>💬 Opiniones reales</h2>
+    <blockquote>“Tenía 12.000 correos sin leer. Ahora todo está limpio y ordenado.” – Clara M.</blockquote>
+    <blockquote>“Una pasada. Me ahorra una hora diaria. ¡Y encima no tengo que hacer nada!” – Pablo V.</blockquote>
+  </div>
+
+  <footer>
+    <h3>📩 ¿Listo para dejar de sufrir con tu correo?</h3>
+    <a class="cta" href="#planes">Empezar ahora</a>
+    <p>Síguenos en: TikTok @inboxpro.ai | Instagram @inboxpro_app | hola@inboxpro.app</p>
+  </footer>
+</body>
+</html>
